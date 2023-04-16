@@ -1,5 +1,7 @@
 一个基于Gin+MongoDB的单机im系统
 
+MongoDB包下的uuid已经转为内部方法，需要重写utils包下的GetUUID方法
+
 消息表
 ```json
 {
